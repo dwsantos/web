@@ -47,19 +47,21 @@ h1{
 
 /* Swiper */
 
-      .swiper {
-        width: 100%;
-        padding-top: 50px;
-        padding-bottom: 50px;
-      }
+    .swiper {
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
 
-      .swiper-slide {
-        background-position: center;
-        background-size: cover;
-        width: 100px;
-        height: 100px;
-      }
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 100px;
+      height: 100px;
+    }
 
-      .swiper-slide img {
-        display: block;
-        width: 100%;}
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 300px;
+    }
