@@ -1,6 +1,12 @@
 body{
   background-color: navy; 
 }
+.container{
+  padding-top: 50px;
+  padding-right: 100px;
+  padding-bottom: 50px;
+  padding-left: 100px;
+}
 h1, h2, h3, h4, h5, p{
   color: lime;
   font-family: Courier New;
