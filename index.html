@@ -52,6 +52,8 @@
           <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
         </div>
       </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
       <div class="swiper-pagination"></div>
     </div>
 
@@ -72,8 +74,13 @@
           modifier: 1,
           slideShadows: true,
         },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
         pagination: {
           el: ".swiper-pagination",
+          clickable: true,
         },
       });
     </script>
