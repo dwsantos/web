@@ -11,7 +11,7 @@ function math(){
   alert(ans);
   }
   else if(ops === "+"){
-  ans = n1+n2;
+  ans = n1 + n2;
   alert(ans);
   }
   else if(ops === "-"){
