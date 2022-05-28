@@ -1,5 +1,23 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
 .parallax_city{
   background-image: url("https://wallpapercave.com/wp/wp3704281.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax_batman{
+  background-image: url("https://wallpapercave.com/wp/VmN49xl.jpg");
 
   /* Set a specific height */
   min-height: 500px; 
