@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Dev</title>
+    <link
+      rel="stylesheet"
+      href="style.css"
+    />	</head>
+	<body>
+<div class="parallax_city">
+  <div class="topnav">
+    <a class=""  href="https://dwsantos.github.io/web/dev/">Home</a>
+    <a class=""  href="https://dwsantos.github.io/web/dev/1">Live Stream</a>
+    <!--
+    <a class=""  href="https://dwsantos.github.io/web/watch/">Watch</a>
+    <a class=""  href="https://dwsantos.github.io/web/music/">Music</a>
+    <a class=""  href="https://dwsantos.github.io/web/learn/">Learn</a>
+    <a class="active"  href="https://dwsantos.github.io/web/school">School</a>
+    <a class=""  href="https://dwsantos.github.io/web/schedule/">Schedule</a>
+    -->
+  </div>
+</div>
+<div style="min-height: 300px; background-color: #ddd;">
+</div>
+
+</body>
+<div class="parallax_batman">
+</div>
+  <br>
+  <br>
+
+</body>
+</html>
