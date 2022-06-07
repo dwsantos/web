@@ -45,6 +45,8 @@ header {
     display: flex;
     align-items: center;
     box-shadow: 0 0 25px 0 black;
+    color: white; 
+    font-family: Times, Times New Roman, serif;
 }
 
 header *{
@@ -63,6 +65,13 @@ header li a {
 header li a.active {
     background color: white;
     color: #666666;
+    font-family: Impact;
+    radius: 30px;
+}
+header li a:hover {
+    background color: white;
+    color: #666666;
+    font-family: Impact;
     radius: 30px;
 }
 
