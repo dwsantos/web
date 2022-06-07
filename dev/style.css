@@ -31,7 +31,7 @@ background-color: black;
 }
 
 body{
-    top-margin:80px;
+    top-margin:40px;
 }
 /* Header/Nav */
 
@@ -41,7 +41,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    height: 80px;
+    height: 40px;
     display: flex;
     align-items: center;
     box-shadow: 0 0 25px 0 black;
@@ -72,7 +72,7 @@ header li a:hover {
     background-color: white;
     color: #666666;
     font-family: Impact;
-    radius: 30px;
+    boarder-radius: 30px;
 }
 
 header img {
