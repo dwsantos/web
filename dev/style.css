@@ -63,13 +63,13 @@ header li a {
 }
 
 header li a.active {
-    background color: white;
+    background-color: white;
     color: #666666;
     font-family: Impact;
     radius: 30px;
 }
 header li a:hover {
-    background color: white;
+    background-color: white;
     color: #666666;
     font-family: Impact;
     radius: 30px;
