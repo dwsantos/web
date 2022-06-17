@@ -54,3 +54,41 @@ canvas {
 align:center;
 background color: black;
 }
+
+#game {
+  width: 500px;
+  height: 200px;
+  boarder: 1px solid black;
+}
+
+#character {
+  width: 20px;
+  height: 50px;
+  background-color: red;
+  position: relative;
+  top: 150px;
+}
+.animate {
+  animation: jump 500ms;
+}
+
+@jump {
+  0%{top: 150 px;}
+  30%{top: 100 px;} 
+  70%{top: 100 px;} 
+  100%{top: 150 px;}
+}
+#block {
+  height: 20px;
+  width: 20 px;
+  background-color: blue;
+  postition: relative; 
+  top: 130px;
+  left: 480px;
+  animation: block ls infinite linear;
+}
+
+@keyframes block{
+  0%{left: 480px;}
+  100%{left: -40px}
+}
