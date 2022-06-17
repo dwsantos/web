@@ -2,7 +2,6 @@
   padding: 0;
   margin: 0;
 }
-/**
 .container{
   padding-top: 50px;
   padding-right: 100px;
@@ -51,14 +50,13 @@ h1{
   border-radius: 45px;
 }
 canvas {
-align:center;
-background color: black;
-}**/
+background-color: black;
+}
 
 #game {
   width: 500px;
   height: 200px;
-  boarder: 1px solid black;
+  border: 1px solid black;
 }
 
 #character {
@@ -72,7 +70,7 @@ background color: black;
   animation: jump 500ms;
 }
 
-@jump {
+@keyframes jump {
   0%{top: 150 px;}
   30%{top: 100 px;} 
   70%{top: 100 px;} 
@@ -82,7 +80,7 @@ background color: black;
   height: 20px;
   width: 20 px;
   background-color: blue;
-  postition: relative; 
+  position: relative; 
   top: 130px;
   left: 480px;
   animation: block ls infinite linear;
