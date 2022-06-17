@@ -1,6 +1,8 @@
-body{
-  background-color: navy; 
+* {
+  padding: 0;
+  margin: 0;
 }
+/**
 .container{
   padding-top: 50px;
   padding-right: 100px;
@@ -53,7 +55,7 @@ h1{
 canvas {
 align:center;
 background color: black;
-}
+}**/
 
 #game {
   width: 500px;
