@@ -16,6 +16,9 @@ h1{
   text-align: center;
   font-size: 45px;
 }
+p{
+  text-align: center;
+}
 
 .header {
   width:100%;
@@ -82,8 +85,8 @@ background-color: black;
   background-color: blue;
   position: relative; 
   top: 130px;
-  left: 480px;
-  animation: block ls infinite linear;
+  left: 500px;
+  animation: block 1s infinite linear;
 }
 
 @keyframes block{
