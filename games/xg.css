@@ -56,40 +56,39 @@ canvas {
 background-color: black;
 }
 
-#game {
+.game{
   width: 500px;
   height: 200px;
   border: 1px solid black;
+  margin: auto;
 }
-
-#character {
+#character{
   width: 20px;
   height: 50px;
   background-color: red;
-  position: relative;
+  position:relative;
   top: 150px;
 }
-.animate {
-  animation: jump 500ms;
+.animate{
+  animation: jump 0.3s linear;
+}
+@keyframes jump{
+  0%{top: 150px;}
+  30%{top: 100px;}
+  70%{top: 100px;}
+  100%{top: 150px;}
 }
 
-@keyframes jump {
-  0%{top: 150 px;}
-  30%{top: 100 px;} 
-  70%{top: 100 px;} 
-  100%{top: 150 px;}
-}
-#block {
-  height: 20px;
-  width: 20 px;
+#block{
   background-color: blue;
-  position: relative; 
+  width: 20px;
+  height: 20px;
+  position: relative;
   top: 130px;
   left: 500px;
   animation: block 1s infinite linear;
 }
-
 @keyframes block{
-  0%{left: 480px;}
-  100%{left: -40px}
+  0%{left: 500px}
+  100%{left: -20px}
 }
