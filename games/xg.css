@@ -60,11 +60,12 @@ canvas {
 background-color: black;
 }
 
-#game{
+.game{
   width: 500px;
   height: 200px;
-  border: 1px solid black;
+  border: 1px solid green;
   margin: auto;
+  padding: 400px;
 }
 #character{
   width: 20px;
