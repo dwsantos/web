@@ -23,19 +23,17 @@ header li{
 }
 
 header li a {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
 header li a.active {
-    background-color: white;
-    color: #666666;
+    color: #FFFFFF;
     font-family: Impact;
     radius: 30px;
 }
 header li a:hover {
-    background-color: white;
-    color: #666666;
+    color: white;
     font-family: Impact;
     boarder-radius: 30px;
 }
