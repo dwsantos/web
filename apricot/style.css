@@ -42,3 +42,38 @@ header img {
     height: 40px;
     margin-left: 40px;
 }
+
+/*Parallax*/
+.p1 {
+    
+    min-height: 500px;
+   /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    
+      .column {
+        float: left;
+        width: 50%;
+        }
+        .left {
+            width: 30%;
+            background-color: white;
+            .img{
+                margin: auto;
+                display: auto;
+            }
+          }
+          
+          .right {
+            width: 70%;
+            background-color: black;
+          }
+        /* Clear floats after the columns */
+        .row:after {
+        content: "";
+        display: table;
+        clear: both;
+        }
+}
