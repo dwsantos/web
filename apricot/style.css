@@ -69,6 +69,9 @@ header img {
           .right {
             width: 70%;
             background-color: black;
+            color: white;
+            text-align: center;
+            
           }
         /* Clear floats after the columns */
         .row:after {
