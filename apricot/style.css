@@ -74,15 +74,14 @@ header img {
   background-color: white;
   color: white;
   height: 300px;
+  margin: auto;
+  text-align: center;
 }
 .right h1 {
   color: white;
   font-family:"Copperplate";
 }
-.center {
-  margin: auto;
-  text-align: center;
-}
+
 /* Clear floats after the columns */
 .row:after {
   content: "";
