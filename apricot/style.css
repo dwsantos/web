@@ -50,7 +50,8 @@ header img {
 /*Parallax*/
 .p1 {
     
-    min-height: 500px;
+    min-height: 300px;
+    max-height: 300px;
    /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
@@ -65,12 +66,28 @@ header img {
 
 .left {
   width: 25%;
+  background-color: white;
+}
+.left img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .right {
   width: 75%;
-}
+  background-color: white;
+  color: white;
 
+}
+.right h1 {
+  color: white;
+  font-family:"Copperplate";
+}
+.center {
+  margin: auto;
+  text-align: center;
+}
 /* Clear floats after the columns */
 .row:after {
   content: "";
