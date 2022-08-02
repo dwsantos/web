@@ -67,6 +67,7 @@ header img {
 .left {
   width: 25%;
   background-color: white;
+  height: 300px;
 }
 .left img {
   display: block;
@@ -78,7 +79,7 @@ header img {
   width: 75%;
   background-color: white;
   color: white;
-
+  height: 300px;
 }
 .right h1 {
   color: white;
