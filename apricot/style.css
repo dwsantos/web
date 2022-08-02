@@ -1,6 +1,8 @@
 * {
   box-sizing: border-box;
+  padding-top: 50px;
 }
+
 /* Header/Nav */
 
 header {
