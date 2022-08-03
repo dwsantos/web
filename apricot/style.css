@@ -62,7 +62,7 @@ header img {
   padding: 10px;
 }
 
-.left1 {
+.left {
   width: 25%;
   background-color: white;
   height: 300px;
@@ -70,7 +70,7 @@ header img {
 }
 
 
-.right1 {
+.right {
   width: 75%;
   background-color: white;
   color: white;
@@ -78,7 +78,7 @@ header img {
   margin: auto;
   text-align: center;
 }
-.right1 h1 {
+.right h1 {
   color: white;
   font-family:"Copperplate";
 }
