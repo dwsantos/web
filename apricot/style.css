@@ -48,8 +48,8 @@ header img {
 /*Parallax*/
 .p1 {
     
-    min-height: 300px;
-    max-height: 300px;
+    min-height: 500px;
+    max-height: 500px;
    /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
