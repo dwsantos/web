@@ -51,10 +51,6 @@ header img {
     min-height: 500px;
     max-height: 500px;
    /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }  
 /* Create two unequal columns that floats next to each other */
 .column {
@@ -67,6 +63,9 @@ header img {
   background-color: white;
   height: 300px;
   background-image: url("https://www.freeiconspng.com/thumbs/iphone-x-pictures/iphone-x-and-iphone-8-png-12.png");
+   background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 
