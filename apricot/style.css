@@ -87,5 +87,8 @@ header img {
   content: "";
   display: table;
   clear: both;
-
         }
+.after {
+height: 500px;
+background-color: pink;
+}
