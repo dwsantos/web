@@ -38,21 +38,21 @@ h1{
 
 .topnav a{
   float: right;
-  color: lime;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 16px;
 }
 .topnav a.active{
-  background-color:lime;
+  background-color:black;
   color:navy;
   font-family: Impact;
   border-radius: 95px;
 }
 .topnav a:hover{
-  background-color:lime;
-  color: navy;
+  background-color:white;
+  color: black;
   font-family: impact;
   border-radius: 45px;
 }
