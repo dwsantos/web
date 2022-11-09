@@ -1,5 +1,11 @@
+* {
+  padding-top:0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+}
 body{
-  background-color: navy; 
+  background-color: rgb(255, 255, 255); 
 }
 .container{
   padding-top: 50px;
@@ -9,7 +15,7 @@ body{
 }
 h1, h2, h3, h4, h5, p, a{
   color: lime;
-  font-family: Courier New;
+  
 }
 h1{
   text-align: center;
@@ -28,10 +34,10 @@ h1{
 .topnav{
   background-color: blue;
   overflow: hidden;
-  border-radius: 45px;
 }
+
 .topnav a{
-  float: left;
+  float: right;
   color: lime;
   text-align: center;
   padding: 14px 16px;

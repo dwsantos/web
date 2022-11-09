@@ -18,7 +18,7 @@ function math(){
   ans = n1-n2;
   alert(ans);
   }  
-  else if(ops === "/"){
+  else if(ops === "/"){ 
   ans = n1/n2;
   alert(ans);
   }
