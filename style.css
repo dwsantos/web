@@ -80,7 +80,8 @@ h1{
   align-items: center;
   justify-content: space-between;
   padding: 5px;
-  background-color: teal;
+  position: fixed;
+  background-color: rgb(0, 0, 0, 0.5);
   color: #fff;
  }
  .nav-links a {
